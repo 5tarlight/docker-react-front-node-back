@@ -1,4 +1,4 @@
-FROM node:16.16-buster-slim
+FROM node:16.19-buster-slim
 
 WORKDIR /app/backend
 ENV PATH /app/backend/node_modules/.bin:$PATH
